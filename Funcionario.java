@@ -12,4 +12,44 @@ public class Funcionario {
         this.filhos = filhos;
         this.salario = salario;
     }
+
+    public int getIdentificador() {
+        return identificador;
+    }
+
+    public void setIdentificador(int identificador) {
+        this.identificador = identificador;
+    }
+
+    public String getEstadoCivil() {
+        return estadoCivil;
+    }
+
+    public void setEstadoCivil(String estadoCivil) {
+        this.estadoCivil = estadoCivil;
+    }
+
+    public String getInstrucao() {
+        return instrucao;
+    }
+
+    public void setInstrucao(String instrucao) {
+        this.instrucao = instrucao;
+    }
+
+    public int getFilhos() {
+        return filhos;
+    }
+
+    public void setFilhos(int filhos) {
+        this.filhos = filhos;
+    }
+
+    public float getSalario() {
+        return salario;
+    }
+
+    public void setSalario(float salario) {
+        this.salario = salario;
+    }
 }
